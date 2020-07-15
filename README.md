@@ -18,6 +18,7 @@ Neste exemplo estamos trabalhando com alguns eventos apenas, mas você pode esta
 | dragstart | onDragStart | Acionado quando o usuário começa a arrastar um elemento válido ou seleção de texto. |
 | drop | onDrop | Acionado quando um elemento ou seleção de texto é solta em um ponto d soltura (drop target) válido. |
 | dragover | onDragOver | Acionado quando um elemento ou seleção de texto está sendo arrastado sobre um ponto de soltura válido (a cada aproximadamente 100 milisegundos). |
-
+| dragEnter | onDragEnter | Acionado quando um elemento arrastável ou seleção de texto entra em um ponto de soltura (drop target).|
+| dragEnd | onDragEnd | Acionado quando uma operação de arrastar está terminando (por eexmplo, ao soltar o botão do mouse ou pressionar a tecla esc). |
 
 Link para documentação DragDrop: [MSDN Doc Drag & Drop](https://developer.mozilla.org/pt-BR/docs/DragDrop/Drag_and_Drop)
