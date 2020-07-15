@@ -8,7 +8,7 @@
 
 ### Projeto Básico de Estudo ReactJS
 
-As interfaces de Drag and Drop (arrastar e soltar) habilitam aplicações a usar funcionalidades de arrastar e soltar através do navegador, hoje basta você colocar na tag draggable="true" já é habilitado a funcionalidade no browser para arrastar e soltar.
+As interfaces de Drag and Drop (arrastar e soltar) habilitam aplicações a usar funcionalidades de arrastar e soltar através do navegador, hoje basta você colocar na tag draggable="true" assim já fica habilitado a funcionalidade no browser para arrastar e soltar.
 A partir dai basta manipular os eventos referentes ao arrastar e soltar
 
 ![](https://github.com/dieggop/drag-drop-react/blob/master/public/dragdrop.gif)
