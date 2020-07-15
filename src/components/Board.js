@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Board(props) {
-
     const drop = e => {
         e.preventDefault();
         const card_id = e.dataTransfer.getData('card_id')
@@ -9,18 +8,29 @@ function Board(props) {
         card.style.display = 'block';
 
         e.target.appendChild(card);
+      
     }
 
     const dragOver = e => {
-        e.preventDefault();
         
-    }
+        e.preventDefault(); 
 
+        const cardBeingDragged = document.querySelector('.is-dragging')
+
+        e.target.appendChild(cardBeingDragged)
+    }
+    
+    const dragEnter = ev => {
+        ev.dataTransfer.dropEffect = props.dropEffect;
+        
+    };
     return (
         <div id={props.id}
         className={props.className}
         onDrop={drop}
-        onDragOver={dragOver}
+        onDragOver={dragOver} 
+        
+        onDragEnter={dragEnter}
         >
             {props.children}
         </div>
